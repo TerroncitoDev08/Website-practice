@@ -1,6 +1,14 @@
+function Button(){
+  return(
+    <button>Click me</button>
+  )
+}
+
 function Page() {
   return(
-    <div>Page</div>
+    <div>
+      <Button />
+    </div>
   )
 }
 export default Page
